@@ -71,11 +71,12 @@ function promptAccount() {
                                 throw err;
                             }
                         });
+
+                        createTable();
                     }
                 }
             });
         });
-        createTable();
     });
 }
 
@@ -161,6 +162,7 @@ function createUserStory() {
                 throw err;
             }
         });
+        createTable();
     });
 }
 
