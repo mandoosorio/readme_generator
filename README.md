@@ -1,9 +1,9 @@
-# code_quiz
+# readme_generator
 
-https://img.shields.io/github/issues/mandoosorio/code_quiz
+![Issues Badge](https://img.shields.io/github/issues/mandoosorio/readme_generator)
 
 ## Description
-In this HTML file we will find the javascript inside the same file as well as descriptions of "what" is happening and where. There's a bit of redundancy in the creation of buttons and event listeners, which I know can be condensed, but for now this does the job. 
+This node.js based app will generate README files either for existing repositories or for new projects.
 
 ## Table of Contents
 * [Title](#Title)
@@ -15,19 +15,22 @@ In this HTML file we will find the javascript inside the same file as well as de
 * [Tests](#Tests)
 
 ## Installation
-All that needs to be done is open the application in the browser
+Download node.js and npme install as well as axios and inquirer
 
 ## Usage
-enter the city you want to search in the search area and your data will be stored in local storage
+node index.js and answer thw prompts
 
 ## License
 none
 
+## Contributors
+no
+
 ## Tests
-none
+nope
 
 ## Questions
-mando@github
+mandogithub
 
 
 

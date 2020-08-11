@@ -47,7 +47,7 @@ function promptAccount() {
                 if (repo.name === answers.repoName) {
                     repoTitle.push(`# ${repo.name}`);
                     repoTitle.push("");
-                    repoTitle.push(badgeUrl);
+                    repoTitle.push(`![Issues Badge](${badgeUrl})`);
                     repoTitle.push("");
 
                     var repoNamesStr = repoTitle.join("\n");
