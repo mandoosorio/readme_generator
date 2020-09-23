@@ -1,24 +1,23 @@
-# eating_burgers
+# readme_generator
 
-![Issues Badge](https://img.shields.io/github/issues/mandoosorio/eating_burgers)
+![Issues Badge](https://img.shields.io/github/issues/mandoosorio/readme_generator)
 
 ## Description
-A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. Following the MVC design pattern; using Node and MySQL to query and route data in the app, and Handlebars to generate the HTML. A restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured. App will store every burger in a database, whether devoured or not.
+This CLI App will ask the user questions and utilize a pre-made template to create a README unique to the user.
+
+## Table of Contents
+* [Title](#Title)
+* [Description](#Description)
+* [Installation](#Installation)
+* [Usage](#Usage)
 
 ## Installation
-just open the browser
+In order to get started with the application, node.js must be installed and the user will have to run an 'npm install' as well as 'npm install inquirer' in order for the prompts to run. The entirety of this application occurs in the terminal.
 
 ## Usage
-open browser
-
-## License
-
-
-## Contributors
-
-
-## Tests
-
+Open up the terminal, run 'npm install', run 'npm install inquirer', run 'npm install axios', and on the command line once all those tools are installed, type 'node index.js'. If more modules are needed, install as prompted. 
 
 ## Questions
 
+![Demo Image](readme_app.png)
+![Profile Image](https://avatars2.githubusercontent.com/u/65792333?v=4/to/img.png)
