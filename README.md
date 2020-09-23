@@ -1,37 +1,24 @@
-# readme_generator
+# eating_burgers
 
-![Issues Badge](https://img.shields.io/github/issues/mandoosorio/readme_generator)
+![Issues Badge](https://img.shields.io/github/issues/mandoosorio/eating_burgers)
 
 ## Description
-This node.js based app will generate README files either for existing repositories or for new projects.
-
-## Table of Contents
-* [Title](#Title)
-* [Description](#Description)
-* [Installation](#Installation)
-* [Usage](#Usage)
-* [License](#License)
-* [Contributing](#Contributing)
-* [Tests](#Tests)
+A burger logger with MySQL, Node, Express, Handlebars and a homemade ORM. Following the MVC design pattern; using Node and MySQL to query and route data in the app, and Handlebars to generate the HTML. A restaurant app that lets users input the names of burgers they'd like to eat. Whenever a user submits a burger's name, the app will display the burger on the left side of the page -- waiting to be devoured. App will store every burger in a database, whether devoured or not.
 
 ## Installation
-Download node.js and npme install as well as axios and inquirer
+just open the browser
 
 ## Usage
-node index.js and answer thw prompts
+open browser
 
 ## License
-none
+
 
 ## Contributors
-no
+
 
 ## Tests
-nope
+
 
 ## Questions
-mandogithub
 
-
-
-![Profile Image](https://avatars2.githubusercontent.com/u/65792333?v=4/to/img.png)

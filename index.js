@@ -2,29 +2,37 @@ const inquirer = require("inquirer");
 const fs = require("fs");
 const util = require("util");
 const axios = require("axios");
+const showBanner = require("node-banner");
+
+(async() => {
+    await showBanner("README Generator", "", "blue");
+    start();
+})();
 
 const writeFileAsync = util.promisify(fs.writeFile);
 
 const repoTitle = [];
 
-inquirer.prompt([
-    {
-        type: "checkbox",
-        name: "existingRepo",
-        message: "Is this README for an existing repository?",
-        choices: [
-            "yes",
-            "no"
-        ]
-    }
-]).then(function({ existingRepo }) {
-    console.log(existingRepo);
-    if (existingRepo == "yes") {
-        promptAccount();
-    } else if (existingRepo == "no") {
-        createNewRepo();
-    }
-});
+function start() {
+    inquirer.prompt([
+        {
+            type: "checkbox",
+            name: "existingRepo",
+            message: "Is this README for an existing repository?",
+            choices: [
+                "yes",
+                "no"
+            ]
+        }
+    ]).then(function({ existingRepo }) {
+        console.log(existingRepo);
+        if (existingRepo == "yes") {
+            promptAccount();
+        } else if (existingRepo == "no") {
+            createNewRepo();
+        }
+    });
+};
 
 function promptAccount() {
     inquirer.prompt([
